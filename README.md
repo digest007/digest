@@ -5,7 +5,7 @@ This repo produces a daily digest about the Go Programming language. It uses [Ma
 This is here mainly to be used as a template so you can use it for your own feeds. It also supports password protected pages via [staticrypt](https://github.com/robinmoisson/staticrypt)
 
 # How to make your own 
-
+ 
 ```
 git clone --depth 1 git@github.com:piqoni/go-digest my-personal-digest
 cd my-personal-digest
