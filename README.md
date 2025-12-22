@@ -7,6 +7,8 @@ Demo URL (Go programming related feeds): https://piqoni.github.io/go-digest
 <img width="718" height="807" alt="image" src="https://github.com/user-attachments/assets/c79be5d9-1df7-40f3-bb78-a164d50e2009" />
 
 # How to make your own in less than 5 minutes
+
+Substitute 'my-personal-digest' with the name you wish to call your digest, in below instructions:
  
 ```
 git clone --depth 1 git@github.com:piqoni/go-digest my-personal-digest
@@ -21,7 +23,7 @@ Go to the my-personal-digest repository Settings -> Pages -> Branch: main -> /do
 
 Go to the my-personal-digest repository Settings -> Secrets and Variables -> Actions
 1. Mandatory: New Repository secret called **MATCHA_DB_KEY** which is used to encrypt the matcha database
-2. Mandatory: Click Variables -> New Repository Variable -> **MATCHA_CONFIG_YAML** with value of a basic matcha configuration
+2. Mandatory: Click Variables -> New Repository Variable -> **MATCHA_CONFIG_YAML** with value of a basic matcha configuration as below: 
 
 Basic configuration, see [Matcha's repository](https://github.com/piqoni/matcha) for more options (like google_news_keywords etc)
 ```
